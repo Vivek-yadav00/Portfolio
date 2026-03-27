@@ -3,7 +3,7 @@
 
 Welcome to my personal portfolio repository! This responsive, dark-themed, glassmorphism-styled website showcases my journey as a Full Stack Developer & AI enthusiast. It highlights my projects, technical skills, education, and professional certifications.
 
-🔗 **Live Demo:** [https://vivek-opal.vercel.app/](# <!-- Replace # with your Vercel deployment link -->
+🔗 **Live Demo:** https://vivek-opal.vercel.app <!-- Replace # with your Vercel deployment link -->
 
 ---
 
