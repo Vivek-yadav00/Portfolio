@@ -353,18 +353,18 @@ button { cursor: pointer; border: none; font-family: inherit; }
 .hero-container {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   width: 100%;
   gap: 4rem;
   z-index: 2;
 }
 
 .hero-content {
-  text-align: left;
+  text-align: center;
   position: relative;
   z-index: 2;
   flex: 1;
-  max-width: 650px;
+  max-width: 800px;
 }
 
 .hero-image {
@@ -478,13 +478,14 @@ button { cursor: pointer; border: none; font-family: inherit; }
   color: var(--text-muted);
   margin-bottom: 36px;
   max-width: 500px;
-  margin-left: 0;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .hero-actions {
   display: flex;
   gap: 16px;
-  justify-content: flex-start;
+  justify-content: center;
   margin-bottom: 40px;
   flex-wrap: wrap;
 }
@@ -492,7 +493,7 @@ button { cursor: pointer; border: none; font-family: inherit; }
 .hero-socials {
   display: flex;
   gap: 16px;
-  justify-content: flex-start;
+  justify-content: center;
 }
 .social-link {
   width: 48px;
