@@ -1,0 +1,916 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vivek Yadav — Full Stack Developer</title>
+  <meta name="description" content="Portfolio website showcasing web development and AI projects by Vivek Yadav. Full Stack Developer specializing in modern web technologies and machine learning." />
+  <meta name="author" content="Vivek Yadav" />
+  <meta property="og:title" content="Vivek Yadav — Full Stack Developer" />
+  <meta property="og:description" content="Portfolio website showcasing web development and AI projects by Vivek Yadav" />
+  <meta property="og:type" content="website" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+  <!-- ===== NAVBAR ===== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo">
+        <span class="logo-bracket"></span>VY<span class="logo-bracket"></span>
+      </a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#training" class="nav-link">Training</a></li>
+        <li><a href="#experience" class="nav-link">Education</a></li>
+        <li><a href="#certificates" class="nav-link">Certificates</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+        <i class="fas fa-sun" id="theme-icon"></i>
+      </button>
+      <button class="hamburger" id="hamburger" aria-label="Toggle navigation">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="hero">
+    <div class="hero-bg-grid"></div>
+    <div class="hero-glow hero-glow--1"></div>
+    <div class="hero-glow hero-glow--2"></div>
+    <div class="hero-container container">
+      <div class="hero-content reveal">
+        <p class="hero-greeting">Hi, I'm</p>
+        <h1 class="hero-name">Vivek Yadav</h1>
+        <p class="hero-title">
+          <span class="typing-wrapper">
+            <span id="typing-text"></span><span class="typing-cursor">|</span>
+          </span>
+        </p>
+        <p class="hero-tagline">B.Tech CSE Student | Building real-world web apps & AI tools</p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">View My Work</a>
+          <a href="#contact" class="btn btn-outline">Get In Touch</a>
+        </div>
+        <div class="hero-socials">
+          <a href="https://github.com/Vivek-yadav00" target="_blank" rel="noopener noreferrer" aria-label="GitHub" class="social-link"><i class="fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/vivekyadav572" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+          <a href="mailto:vivek.ydv242@gmail.com" aria-label="Email" class="social-link"><i class="fas fa-envelope"></i></a>
+        </div>
+      </div>
+      
+      <div class="hero-image reveal">
+        <div class="hero-photo-container">
+          <div class="hero-photo-ring"></div>
+          <img src="image/IMG-20231115-WA0017.jpg" alt="Vivek Yadav" class="hero-photo" />
+        </div>
+      </div>
+    </div>
+    <a href="#about" class="scroll-indicator" aria-label="Scroll down">
+      <div class="scroll-mouse">
+        <div class="scroll-wheel"></div>
+      </div>
+    </a>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section class="section about" id="about">
+    <div class="container">
+      <h2 class="section-title reveal">About <span class="accent">Me</span></h2>
+      <p class="section-subtitle reveal">Passionate developer crafting digital solutions that make a difference</p>
+      <div class="about-grid">
+        <div class="about-avatar reveal">
+          <div class="avatar-frame">
+            <div class="avatar-placeholder">
+              <i class="fas fa-user-astronaut"></i>
+            </div>
+            <div class="avatar-ring"></div>
+          </div>
+        </div>
+        <div class="about-text reveal">
+          <h3 class="about-intro">Hi! I'm Vivek Yadav</h3>
+          <p>I'm a passionate Computer Science student at Lovely Professional University, specializing in full-stack web development and AI/ML. With hands-on experience in Django, Python, and modern web technologies, I love building high-performance applications that solve real-world problems.</p>
+          <p>I've completed 330+ DSA challenges on LeetCode with a 70+ day streak, and I'm continuously sharpening my skills through projects, certifications, and competitive coding. I believe in writing clean, scalable code and deploying production-ready solutions.</p>
+          <div class="about-cta">
+            <a href="https://drive.google.com/file/d/1Qr_Zh3WPuIo6Kcah3LHosg_8Q8sDwV1c/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-download" id="download-resume">
+              <i class="fas fa-download"></i>
+              <span>Download Resume</span>
+            </a>
+          </div>
+          <div class="about-stats">
+            <div class="stat-card">
+              <span class="stat-number" data-target="2">0</span><span class="stat-plus">+</span>
+              <span class="stat-label">Years Learning</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-number" data-target="10">0</span><span class="stat-plus">+</span>
+              <span class="stat-label">Projects Built</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-number" data-target="15">0</span><span class="stat-plus">+</span>
+              <span class="stat-label">Technologies</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-number" data-target="330">0</span><span class="stat-plus">+</span>
+              <span class="stat-label">DSA Problems</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SKILLS ===== -->
+  <section class="section skills" id="skills">
+    <div class="container">
+      <h2 class="section-title reveal">Skills & <span class="accent">Expertise</span></h2>
+      <p class="section-subtitle reveal">Technical and soft skills I've sharpened through continuous learning and real-world application.</p>
+
+      <!-- Category Filter Tabs -->
+      <div class="filter-tabs reveal" id="skill-filters">
+        <button class="filter-tab active" data-filter="all">All Skills</button>
+        <button class="filter-tab" data-filter="languages"><i class="fas fa-code"></i> Languages</button>
+        <button class="filter-tab" data-filter="backend"><i class="fas fa-database"></i> Databases</button>
+        <button class="filter-tab" data-filter="tools"><i class="fas fa-tools"></i> Tools</button>
+        <button class="filter-tab" data-filter="ai-ml"><i class="fas fa-brain"></i> Data Science</button>
+        <button class="filter-tab" data-filter="coursework"><i class="fas fa-book"></i> Coursework</button>
+      </div>
+
+      <div class="skills-grid" id="skills-grid">
+
+        <!-- Languages -->
+        <div class="skill-category glass-card reveal" data-skill-category="languages">
+          <div class="skill-category-header">
+            <div class="skill-icon-wrapper" style="--cat-hue: 200;"><i class="fas fa-code"></i></div>
+            <h3>Languages</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">C++</span>
+            <span class="skill-tag">C</span>
+            <span class="skill-tag">Java</span>
+            <span class="skill-tag">Python</span>
+            <span class="skill-tag">HTML</span>
+            <span class="skill-tag">CSS</span>
+          </div>
+        </div>
+
+        <!-- Database & Services -->
+        <div class="skill-category glass-card reveal" data-skill-category="backend">
+          <div class="skill-category-header">
+            <div class="skill-icon-wrapper" style="--cat-hue: 130;"><i class="fas fa-database"></i></div>
+            <h3>Database & Services</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">MySQL</span>
+            <span class="skill-tag">MongoDB</span>
+            <span class="skill-tag">Redis</span>
+            <span class="skill-tag">PostgreSQL</span>
+            <span class="skill-tag">SQLite</span>
+          </div>
+        </div>
+
+        <!-- Tools & Frameworks -->
+        <div class="skill-category glass-card reveal" data-skill-category="tools">
+          <div class="skill-category-header">
+            <div class="skill-icon-wrapper" style="--cat-hue: 40;"><i class="fas fa-tools"></i></div>
+            <h3>Tools & Frameworks</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">Django</span>
+            <span class="skill-tag">Flask</span>
+            <span class="skill-tag">Django REST Framework</span>
+            <span class="skill-tag">FastAPI</span>
+            <span class="skill-tag">Git</span>
+            <span class="skill-tag">GitHub</span>
+            <span class="skill-tag">Docker</span>
+            <span class="skill-tag">Power BI</span>
+            <span class="skill-tag">Jupyter Notebook</span>
+            <span class="skill-tag">Maven</span>
+            <span class="skill-tag">Postman</span>
+          </div>
+        </div>
+
+        <!-- Data Science & AI -->
+        <div class="skill-category glass-card reveal" data-skill-category="ai-ml">
+          <div class="skill-category-header">
+            <div class="skill-icon-wrapper" style="--cat-hue: 270;"><i class="fas fa-brain"></i></div>
+            <h3>Data Science & AI</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">NumPy</span>
+            <span class="skill-tag">Pandas</span>
+            <span class="skill-tag">Matplotlib</span>
+            <span class="skill-tag">Seaborn</span>
+            <span class="skill-tag">Scikit-learn</span>
+          </div>
+        </div>
+
+        <!-- Coursework & Concepts -->
+        <div class="skill-category glass-card reveal" data-skill-category="coursework">
+          <div class="skill-category-header">
+            <div class="skill-icon-wrapper" style="--cat-hue: 300;"><i class="fas fa-book"></i></div>
+            <h3>Coursework & Concepts</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">Data Structures & Algorithms</span>
+            <span class="skill-tag">Operating Systems</span>
+            <span class="skill-tag">DBMS</span>
+            <span class="skill-tag">Computer Networks</span>
+            <span class="skill-tag">Object-Oriented Programming</span>
+            <span class="skill-tag">System Design Basics</span>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Soft Skills Sub-section -->
+      <div class="soft-skills-section reveal">
+        <div class="soft-skills-header">
+          <i class="fas fa-users"></i>
+          <h3>Soft <span class="accent">Skills</span></h3>
+          <p>Interpersonal and professional skills that complement my technical expertise</p>
+        </div>
+        <div class="soft-skills-grid">
+
+          <div class="soft-skill-card glass-card">
+            <div class="soft-skill-icon" style="--soft-hue: 340;"><i class="fas fa-lightbulb"></i></div>
+            <div class="soft-skill-info">
+              <h4>Analytical Reasoning</h4>
+              <span class="soft-skill-percent">90%</span>
+            </div>
+            <p class="soft-skill-desc">Logical problem solving</p>
+            <div class="soft-skill-bar-track">
+              <div class="soft-skill-bar" style="--bar-width: 90%; --bar-hue: 340;"></div>
+            </div>
+          </div>
+
+          <div class="soft-skill-card glass-card">
+            <div class="soft-skill-icon" style="--soft-hue: 190;"><i class="fas fa-users"></i></div>
+            <div class="soft-skill-info">
+              <h4>Agile Development</h4>
+              <span class="soft-skill-percent">85%</span>
+            </div>
+            <p class="soft-skill-desc">Iterative workflows</p>
+            <div class="soft-skill-bar-track">
+              <div class="soft-skill-bar" style="--bar-width: 85%; --bar-hue: 190;"></div>
+            </div>
+          </div>
+
+          <div class="soft-skill-card glass-card">
+            <div class="soft-skill-icon" style="--soft-hue: 150;"><i class="fas fa-comments"></i></div>
+            <div class="soft-skill-info">
+              <h4>Communication</h4>
+              <span class="soft-skill-percent">88%</span>
+            </div>
+            <p class="soft-skill-desc">Clear & concise</p>
+            <div class="soft-skill-bar-track">
+              <div class="soft-skill-bar" style="--bar-width: 88%; --bar-hue: 150;"></div>
+            </div>
+          </div>
+
+          <div class="soft-skill-card glass-card">
+            <div class="soft-skill-icon" style="--soft-hue: 270;"><i class="fas fa-drafting-compass"></i></div>
+            <div class="soft-skill-info">
+              <h4>System Design</h4>
+              <span class="soft-skill-percent">80%</span>
+            </div>
+            <p class="soft-skill-desc">Architecture basics</p>
+            <div class="soft-skill-bar-track">
+              <div class="soft-skill-bar" style="--bar-width: 80%; --bar-hue: 270;"></div>
+            </div>
+          </div>
+
+          <div class="soft-skill-card glass-card">
+            <div class="soft-skill-icon" style="--soft-hue: 30;"><i class="fas fa-cogs"></i></div>
+            <div class="soft-skill-info">
+              <h4>Rapid Tech Adoption</h4>
+              <span class="soft-skill-percent">92%</span>
+            </div>
+            <p class="soft-skill-desc">Quick learner</p>
+            <div class="soft-skill-bar-track">
+              <div class="soft-skill-bar" style="--bar-width: 92%; --bar-hue: 30;"></div>
+            </div>
+          </div>
+
+          <div class="soft-skill-card glass-card">
+            <div class="soft-skill-icon" style="--soft-hue: 290;"><i class="fas fa-clock"></i></div>
+            <div class="soft-skill-info">
+              <h4>Time Management</h4>
+              <span class="soft-skill-percent">85%</span>
+            </div>
+            <p class="soft-skill-desc">Meeting deadlines</p>
+            <div class="soft-skill-bar-track">
+              <div class="soft-skill-bar" style="--bar-width: 85%; --bar-hue: 290;"></div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROJECTS ===== -->
+  <section class="section projects" id="projects">
+    <div class="container">
+      <h2 class="section-title reveal">My <span class="accent">Digital Creations</span></h2>
+      <p class="section-subtitle reveal">Explore my portfolio of innovative projects spanning web development, AI, data science, and machine learning.</p>
+
+      <!-- Category Filter Tabs -->
+      <div class="filter-tabs reveal" id="project-filters">
+        <button class="filter-tab active" data-filter="all">All</button>
+        <button class="filter-tab" data-filter="web">Web Dev</button>
+        <button class="filter-tab" data-filter="ai-ml">AI / ML</button>
+        <button class="filter-tab" data-filter="other">Other</button>
+      </div>
+
+      <div class="projects-grid" id="projects-grid">
+
+        <!-- Project 1: CHATIX -->
+        <div class="project-card reveal" data-category="web">
+          <div class="project-image">
+            <img src="image/chat.png" alt="CHATIX — Real Time Chat App" style="width: 100%; height: 100%; object-fit: cover;" />
+            <div class="project-overlay">
+              <a href="https://github.com/Vivek-yadav00/CHATIX.git" target="_blank" rel="noopener noreferrer" class="project-link-icon" aria-label="View code"><i class="fab fa-github"></i></a>
+              <a href="https://chatix-1f4j.onrender.com/" target="_blank" rel="noopener noreferrer" class="project-link-icon" aria-label="Live demo"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+            <span class="project-status status-completed">completed</span>
+          </div>
+          <div class="project-info">
+            <h3 class="project-name">CHATIX — Real Time Chat App</h3>
+            <span class="project-category-badge">Web Dev</span>
+            <p class="project-desc">High-performance real-time chat application using Django and Django Channels with asynchronous WebSockets and Redis for instant bi-directional messaging with &lt;100ms latency. Features include "Delete for Everyone", real-time Online/Last Seen status, Chat Favorites, and multimedia sharing.</p>
+            <div class="project-tags">
+              <span class="tag">Django</span>
+              <span class="tag">Django Channels</span>
+              <span class="tag">Redis</span>
+              <span class="tag">WebSockets</span>
+              <span class="tag">JavaScript</span>
+              <span class="tag">PostgreSQL</span>
+            </div>
+            <button class="btn-view-details" data-project="1">
+              <i class="fas fa-eye"></i> View Details
+            </button>
+          </div>
+        </div>
+
+        <!-- Project 2: ML Complexity Estimator -->
+        <div class="project-card reveal" data-category="ai-ml">
+          <div class="project-image">
+            <img src="image/ML.png" alt="ML Complexity Estimator" style="width: 100%; height: 100%; object-fit: cover;" />
+            <div class="project-overlay">
+              <a href="https://github.com/Vivek-yadav00/ML-Extension-.git" target="_blank" rel="noopener noreferrer" class="project-link-icon" aria-label="View code"><i class="fab fa-github"></i></a>
+            </div>
+            <span class="project-status status-completed">completed</span>
+          </div>
+          <div class="project-info">
+            <h3 class="project-name">ML Complexity Estimator</h3>
+            <span class="project-category-badge">AI / ML</span>
+            <p class="project-desc">Chrome extension that augments GitHub with real-time Big-O complexity insights for ML code, streamlining model review workflows by ~80%. Uses Python AST-based static analysis for accurate ML framework detection and an async Fast API backend achieving &lt;200ms response times.</p>
+            <div class="project-tags">
+              <span class="tag">Python</span>
+              <span class="tag">JavaScript</span>
+              <span class="tag">FastAPI</span>
+              <span class="tag">Chrome API</span>
+              <span class="tag">CSS</span>
+            </div>
+            <button class="btn-view-details" data-project="2">
+              <i class="fas fa-eye"></i> View Details
+            </button>
+          </div>
+        </div>
+
+        <!-- Project 3: Sudoku Solver -->
+        <div class="project-card reveal" data-category="web">
+          <div class="project-image">
+            <img src="image/Sudoko.png" alt="Sudoku Solver" style="width: 100%; height: 100%; object-fit: cover;" />
+            <div class="project-overlay">
+              <a href="https://github.com/Vivek-yadav00/SUDOKO_Solver.git" target="_blank" rel="noopener noreferrer" class="project-link-icon" aria-label="View code"><i class="fab fa-github"></i></a>
+            </div>
+            <span class="project-status status-completed">completed</span>
+          </div>
+          <div class="project-info">
+            <h3 class="project-name">Sudoku Solver</h3>
+            <span class="project-category-badge">Web Dev</span>
+            <p class="project-desc">A full-stack Sudoku Solver with a modern glassmorphism UI supporting 3×3, 6×6, and 9×9 grids. Built with a high-performance C++ backtracking engine, cpp-httplib REST API, and a browser-based frontend for real-time puzzle validation and solving.</p>
+            <div class="project-tags">
+              <span class="tag">C++17</span>
+              <span class="tag">Algorithms</span>
+              <span class="tag">HTML/CSS</span>
+              <span class="tag">JavaScript</span>
+              <span class="tag">REST API</span>
+            </div>
+            <button class="btn-view-details" data-project="3">
+              <i class="fas fa-eye"></i> View Details
+            </button>
+          </div>
+        </div>
+
+        <!-- Project 4: COVID-19 Dashboard -->
+        <div class="project-card reveal" data-category="ai-ml">
+          <div class="project-image">
+            <img src="image/dash.png" alt="COVID-19 Dashboard" style="width: 100%; height: 100%; object-fit: cover;" />
+            <div class="project-overlay">
+              <a href="https://www.linkedin.com/posts/vivekyadav572_powerbi-dax-covid19analytics-activity-7406797648642580480-_eUF?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEgJuwQByb0zwn98oQh8vv0iWyfjfaKPqwo" target="_blank" rel="noopener noreferrer" class="project-link-icon" aria-label="Live demo"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+            <span class="project-status status-completed">completed</span>
+          </div>
+          <div class="project-info">
+            <h3 class="project-name">COVID-19 Dashboard & Analysis</h3>
+            <span class="project-category-badge">Data Science</span>
+            <p class="project-desc">Interactive dashboard analyzing global COVID-19 trends using WHO data. Transforms complex datasets into clear, actionable insights through DAX modeling, featuring geographic analysis, Case Fatality Rate patterns, and time-series trends.</p>
+            <div class="project-tags">
+              <span class="tag">Power BI</span>
+              <span class="tag">DAX</span>
+              <span class="tag">Data Modeling</span>
+              <span class="tag">Data Analysis</span>
+            </div>
+            <button class="btn-view-details" data-project="4">
+              <i class="fas fa-eye"></i> View Details
+            </button>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="collab-banner glass-card reveal">
+        <div class="collab-content">
+          <h3>Interested in Collaboration?</h3>
+          <p>I'm always excited to work on new projects and collaborate with fellow developers and innovators.</p>
+        </div>
+        <a href="#contact" class="btn btn-primary"><i class="fas fa-rocket"></i> Let's Build Something Amazing</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROJECT DETAIL MODAL ===== -->
+  <div class="project-modal-overlay" id="project-modal-overlay">
+    <div class="project-modal glass-card" id="project-modal">
+      <div class="project-modal-header">
+        <div class="modal-header-left">
+          <div class="modal-icon"><i class="fas fa-rocket"></i></div>
+          <div>
+            <h3 id="modal-title">Project Title</h3>
+            <span class="project-status status-completed" id="modal-status">completed</span>
+          </div>
+        </div>
+        <button class="modal-close" id="modal-close" aria-label="Close modal">&times;</button>
+      </div>
+      <div class="project-modal-body">
+        <div class="modal-stats">
+          <div class="modal-stat">
+            <i class="fas fa-star"></i>
+            <div class="modal-stat-value" id="modal-featured">Project</div>
+            <div class="modal-stat-label">Status</div>
+          </div>
+          <div class="modal-stat">
+            <i class="fas fa-code"></i>
+            <div class="modal-stat-value" id="modal-tech-count">0</div>
+            <div class="modal-stat-label">Technologies</div>
+          </div>
+        </div>
+        <div class="modal-section">
+          <h4>About This Project</h4>
+          <p id="modal-description">Project description goes here.</p>
+        </div>
+        <div class="modal-section">
+          <h4>Technologies Used</h4>
+          <div class="modal-tags" id="modal-tags"></div>
+        </div>
+        <div class="modal-actions">
+          <a href="#" target="_blank" rel="noopener noreferrer" class="btn btn-outline" id="modal-github"><i class="fab fa-github"></i> View Source Code</a>
+          <a href="#" target="_blank" rel="noopener noreferrer" class="btn btn-primary" id="modal-demo"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== TRAINING ===== -->
+  <section class="section training" id="training">
+    <div class="container">
+      <div class="training-header reveal">
+        <i class="fas fa-chalkboard-teacher training-header-icon"></i>
+        <h2 class="section-title">Training</h2>
+        <p class="section-subtitle">Summer Training</p>
+      </div>
+
+      <div class="training-grid">
+
+        <!-- Training Card 1: Cipher Schools -->
+        <div class="training-card glass-card reveal">
+          <div class="training-card-image">
+            <img src="image/Django.png" alt="Python Django Certificate" style="width: 100%; height: 100%; object-fit: cover;" />
+          </div>
+          <div class="training-card-details">
+            <h3 class="training-title">Python Django Development</h3>
+            <p class="training-provider"><i class="fas fa-building"></i> Cipher Schools</p>
+            <span class="training-duration"><i class="fas fa-calendar-alt"></i> June '25 - July '25</span>
+            <p class="training-desc">Successfully completed training in Python Django Development during summer. The training comprised 70 hours of learning, and performance was assessed as Satisfactory.</p>
+            <div class="training-tags">
+              <span class="tag">Python</span>
+              <span class="tag">Django</span>
+              <span class="tag">Web Development</span>
+            </div>
+            <a href="https://www.cipherschools.com/certificate/preview?id=687e67f47efd6d509070407e" target="_blank" rel="noopener noreferrer" class="btn btn-outline" style="margin-top: 24px;">
+              <i class="fas fa-external-link-alt"></i> View Certificate
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== EXPERIENCE & EDUCATION ===== -->
+  <section class="section experience" id="experience">
+    <div class="container">
+      <h2 class="section-title reveal"><span class="accent">Education</span></h2>
+      <p class="section-subtitle reveal">My journey through education and professional experiences that shaped my skills and expertise.</p>
+
+      <!-- Experience Stats -->
+      <div class="exp-stats reveal">
+        <div class="exp-stat">
+          <i class="fas fa-rocket"></i>
+          <span class="exp-stat-number">2+</span>
+          <span class="exp-stat-label">Years Learning</span>
+        </div>
+        <div class="exp-stat">
+          <i class="fas fa-code"></i>
+          <span class="exp-stat-number">10+</span>
+          <span class="exp-stat-label">Projects</span>
+        </div>
+        <div class="exp-stat">
+          <i class="fas fa-trophy"></i>
+          <span class="exp-stat-number">330+</span>
+          <span class="exp-stat-label">DSA Problems</span>
+        </div>
+      </div>
+
+      <div class="timeline">
+
+        <!-- Education 1 — B.Tech at LPU -->
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"><i class="fas fa-graduation-cap"></i></div>
+          <div class="timeline-content glass-card">
+            <div class="timeline-badges">
+              <span class="exp-type-badge badge-education"><i class="fas fa-graduation-cap"></i> Education</span>
+              <span class="timeline-date">Aug '23 - Present</span>
+            </div>
+            <h3 class="timeline-role">B.Tech — Computer Science and Engineering</h3>
+            <p class="timeline-company"><i class="fas fa-university"></i> Lovely Professional University, Punjab, India</p>
+            <div class="edu-grades">
+              <i class="fas fa-book"></i>
+              <span>CGPA: 7.76</span>
+            </div>
+            <ul class="timeline-details">
+              <li>Specializing in Full Stack Web Development and AI/ML</li>
+              <li>Completed 330+ DSA challenges with 70+ day LeetCode streak</li>
+            </ul>
+            <div class="exp-skills-tags">
+              <span class="exp-skill-tag">DSA</span>
+              <span class="exp-skill-tag">DBMS</span>
+              <span class="exp-skill-tag">Operating Systems</span>
+              <span class="exp-skill-tag">OOPS</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Education 2 — Intermediate -->
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"><i class="fas fa-graduation-cap"></i></div>
+          <div class="timeline-content glass-card">
+            <div class="timeline-badges">
+              <span class="exp-type-badge badge-education"><i class="fas fa-graduation-cap"></i> Education</span>
+              <span class="timeline-date">Apr '22 - Mar '23</span>
+            </div>
+            <h3 class="timeline-role">Intermediate (12th)</h3>
+            <p class="timeline-company"><i class="fas fa-university"></i> Nirmala Convent High School, Renukoot, Sonbhadra</p>
+            <div class="edu-grades">
+              <i class="fas fa-book"></i>
+              <span>Percentage: 83%</span>
+            </div>
+            <ul class="timeline-details">
+              <li>Completed intermediate education with strong academic performance</li>
+            </ul>
+            <div class="exp-skills-tags">
+              <span class="exp-skill-tag">Science</span>
+              <span class="exp-skill-tag">Mathematics</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Education 3 — Matriculation -->
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"><i class="fas fa-graduation-cap"></i></div>
+          <div class="timeline-content glass-card">
+            <div class="timeline-badges">
+              <span class="exp-type-badge badge-education"><i class="fas fa-graduation-cap"></i> Education</span>
+              <span class="timeline-date">Apr '20 - Mar '21</span>
+            </div>
+            <h3 class="timeline-role">Matriculation (10th)</h3>
+            <p class="timeline-company"><i class="fas fa-university"></i> Nirmala Convent High School, Renukoot, Sonbhadra</p>
+            <div class="edu-grades">
+              <i class="fas fa-book"></i>
+              <span>Percentage: 94%</span>
+            </div>
+            <ul class="timeline-details">
+              <li>Achieved outstanding academic results with 94% score</li>
+            </ul>
+            <div class="exp-skills-tags">
+              <span class="exp-skill-tag">Science</span>
+              <span class="exp-skill-tag">Mathematics</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CERTIFICATES ===== -->
+  <section class="section certificates" id="certificates">
+    <div class="container">
+      <div class="cert-header reveal">
+        <i class="fas fa-award cert-header-icon"></i>
+        <h2 class="section-title">Certificates</h2>
+        <p class="section-subtitle">Professional certifications and credentials I've earned</p>
+      </div>
+
+      <div class="certificates-grid">
+
+        <!-- Certificate 1: IBM -->
+        <div class="cert-card glass-card reveal">
+          <div style="width: 100%; height: 200px; border-radius: 12px; overflow: hidden; margin-bottom: 16px;">
+            <img src="image/hardware.png" alt="IBM Certificate" style="width: 100%; height: 100%; object-fit: cover;" />
+          </div>
+          <div class="cert-card-top">
+            <div class="cert-icon-wrapper">
+              <i class="fas fa-award"></i>
+            </div>
+            <div class="cert-title-area">
+              <h3>Introduction to Hardware and Operating Systems</h3>
+            </div>
+          </div>
+          <div class="cert-meta">
+            <span class="cert-issuer"><i class="fas fa-building"></i> IBM</span>
+            <span class="cert-date"><i class="fas fa-calendar-alt"></i> Sep '24 - Oct '24</span>
+          </div>
+          <p class="cert-desc">Comprehensive course covering hardware fundamentals and operating system concepts from IBM.</p>
+          <div class="cert-footer">
+            <span class="cert-id">IBM Certified</span>
+            <a href="https://coursera.org/share/a4368b133e28c7aa214b50f90d48a074" target="_blank" rel="noopener noreferrer" class="cert-verify-link">Verify <i class="fas fa-external-link-alt"></i></a>
+          </div>
+        </div>
+
+        <!-- Certificate 2: University of Colorado -->
+        <div class="cert-card glass-card reveal">
+          <div style="width: 100%; height: 200px; border-radius: 12px; overflow: hidden; margin-bottom: 16px;">
+            <img src="image/Fundamental.png" alt="University of Colorado Certificate" style="width: 100%; height: 100%; object-fit: cover;" />
+          </div>
+          <div class="cert-card-top">
+            <div class="cert-icon-wrapper">
+              <i class="fas fa-award"></i>
+            </div>
+            <div class="cert-title-area">
+              <h3>Fundamentals of Network Communication</h3>
+            </div>
+          </div>
+          <div class="cert-meta">
+            <span class="cert-issuer"><i class="fas fa-building"></i> University of Colorado</span>
+            <span class="cert-date"><i class="fas fa-calendar-alt"></i> Oct '24 - Nov '24</span>
+          </div>
+          <p class="cert-desc">In-depth study of network communication fundamentals and protocols from University of Colorado.</p>
+          <div class="cert-footer">
+            <span class="cert-id">Coursera Certified</span>
+            <a href="https://coursera.org/share/d621f1ed3682537fe4ca080bd1f12796" target="_blank" rel="noopener noreferrer" class="cert-verify-link">Verify <i class="fas fa-external-link-alt"></i></a>
+          </div>
+        </div>
+
+        <!-- Certificate 3: NPTEL -->
+        <div class="cert-card glass-card reveal">
+          <div style="width: 100%; height: 200px; border-radius: 12px; overflow: hidden; margin-bottom: 16px;">
+            <img src="image/nptel.png" alt="NPTEL Certificate" style="width: 100%; height: 100%; object-fit: cover;" />
+          </div>
+          <div class="cert-card-top">
+            <div class="cert-icon-wrapper">
+              <i class="fas fa-award"></i>
+            </div>
+            <div class="cert-title-area">
+              <h3>Privacy and Security in Online Social Media</h3>
+            </div>
+          </div>
+          <div class="cert-meta">
+            <span class="cert-issuer"><i class="fas fa-building"></i> NPTEL</span>
+            <span class="cert-date"><i class="fas fa-calendar-alt"></i> Jan '25 - Apr '25</span>
+          </div>
+          <p class="cert-desc">Course on privacy and security aspects of online social media platforms from NPTEL.</p>
+          <div class="cert-footer">
+            <span class="cert-id">NPTEL Certified</span>
+            <a href="https://drive.google.com/file/d/1ASh0bH6e9wjaSPxZXxweHSqUlr_vDkq0/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="cert-verify-link">Verify <i class="fas fa-external-link-alt"></i></a>
+          </div>
+        </div>
+
+        <!-- Certificate 4: freeCodeCamp -->
+        <div class="cert-card glass-card reveal">
+          <div style="width: 100%; height: 200px; border-radius: 12px; overflow: hidden; margin-bottom: 16px;">
+            <img src="image/free.png" alt="freeCodeCamp Responsive Web Design Certificate" style="width: 100%; height: 100%; object-fit: cover;" />
+          </div>
+          <div class="cert-card-top">
+            <div class="cert-icon-wrapper" style="background: rgba(var(--primary-color-rgb), 0.1);">
+              <i class="fas fa-code"></i>
+            </div>
+            <div class="cert-title-area">
+              <h3>Responsive Web Design</h3>
+            </div>
+          </div>
+          <div class="cert-meta">
+            <span class="cert-issuer"><i class="fas fa-building"></i> freeCodeCamp</span>
+            <span class="cert-date"><i class="fas fa-calendar-alt"></i> Aug '23 - Nov '23</span>
+          </div>
+          <p class="cert-desc">Developer Certification representing approximately 300 hours of coursework focusing on HTML, CSS, and creating responsive web layouts.</p>
+          <div class="cert-footer">
+            <span class="cert-id">freeCodeCamp Certified</span>
+            <a href="https://www.freecodecamp.org/certification/fccccf09f2f-2971-4f5c-b4ad-28f2bb214098/responsive-web-design" target="_blank" rel="noopener noreferrer" class="cert-verify-link">Verify <i class="fas fa-external-link-alt"></i></a>
+          </div>
+        </div>
+
+        <!-- Certificate 5: LPU DSA -->
+        <div class="cert-card glass-card reveal">
+          <div style="width: 100%; height: 200px; border-radius: 12px; overflow: hidden; margin-bottom: 16px;">
+            <img src="image/dsa.png" alt="LPU DSA Certificate" style="width: 100%; height: 100%; object-fit: cover;" />
+          </div>
+          <div class="cert-card-top">
+            <div class="cert-icon-wrapper" style="background: rgba(var(--primary-color-rgb), 0.1);">
+              <i class="fas fa-code-branch"></i>
+            </div>
+            <div class="cert-title-area">
+              <h3>Data Structures and Algorithms</h3>
+            </div>
+          </div>
+          <div class="cert-meta">
+            <span class="cert-issuer"><i class="fas fa-building"></i> Lovely Professional University</span>
+            <span class="cert-date"><i class="fas fa-calendar-alt"></i>Sep '24 - Dec '24' </span>
+          </div>
+          <p class="cert-desc">Acknowledges specialized coursework and demonstrated proficiency in Data Structures and Algorithms, focusing on optimal problem solving.</p>
+          <div class="cert-footer">
+            <span class="cert-id">LPU Certified</span>
+            <a href="https://drive.google.com/file/d/14UN3M_b_8SoOSoy3xeIf0pkdNotXujT3/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="cert-verify-link">Verify <i class="fas fa-external-link-alt"></i></a>
+          </div>
+        </div>
+
+        <!-- Certificate 6: Udemy Excel -->
+        <div class="cert-card glass-card reveal">
+          <div style="width: 100%; height: 200px; border-radius: 12px; overflow: hidden; margin-bottom: 16px;">
+            <img src="image/Excel.png" alt="Udemy Excel Certificate" style="width: 100%; height: 100%; object-fit: cover;" />
+          </div>
+          <div class="cert-card-top">
+            <div class="cert-icon-wrapper" style="background: rgba(var(--primary-color-rgb), 0.1);">
+              <i class="fas fa-file-excel"></i>
+            </div>
+            <div class="cert-title-area">
+              <h3>Excel From Beginner to Advanced</h3>
+            </div>
+          </div>
+          <div class="cert-meta">
+            <span class="cert-issuer"><i class="fas fa-building"></i> Udemy</span>
+            <span class="cert-date"><i class="fas fa-calendar-alt"></i> Nov '23</span>
+          </div>
+          <p class="cert-desc">Comprehensive certification covering Microsoft Excel fundamentals through advanced formulas, data analysis, and dashboard creation.</p>
+          <div class="cert-footer">
+            <span class="cert-id">Udemy Certified</span>
+            <a href="https://www.udemy.com/certificate/UC-6a065f13-8c0c-49ed-abf1-60aeab8440a3/" target="_blank" rel="noopener noreferrer" class="cert-verify-link">Verify <i class="fas fa-external-link-alt"></i></a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section class="section contact" id="contact">
+    <div class="container">
+      <h2 class="section-title reveal">Let's <span class="accent">Work Together</span></h2>
+      <p class="section-subtitle reveal">Ready to bring your ideas to life? Let's collaborate and create something amazing together!</p>
+
+
+      <div class="contact-grid">
+
+        <form class="contact-form glass-card reveal" id="contact-form">
+          <h3>Send a Message</h3>
+          <p class="form-subtitle">I'll get back to you within 24 hours!</p>
+          <div class="form-group">
+            <label for="name"><i class="fas fa-user"></i> Full Name</label>
+            <input type="text" id="name" name="name" placeholder="Vivek Yadav" required />
+          </div>
+          <div class="form-group">
+            <label for="email"><i class="fas fa-envelope"></i> Email Address</label>
+            <input type="email" id="email" name="email" placeholder="vivek@example.com" required />
+          </div>
+          <div class="form-group">
+            <label for="subject"><i class="fas fa-tag"></i> Subject</label>
+            <input type="text" id="subject" name="subject" placeholder="Project Collaboration" required />
+          </div>
+          <div class="form-group">
+            <label for="message"><i class="fas fa-comment"></i> Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Tell me about your project..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full" id="submit-btn">
+            <span>Send Message</span>
+            <i class="fas fa-paper-plane"></i>
+          </button>
+          <div class="form-status" id="form-status"></div>
+        </form>
+
+        <div class="contact-info reveal">
+          <div class="info-card glass-card">
+            <div class="info-icon"><i class="fas fa-envelope"></i></div>
+            <div>
+              <h4>Email</h4>
+              <a href="mailto:vivek.ydv242@gmail.com">vivek.ydv242@gmail.com</a>
+            </div>
+          </div>
+          <div class="info-card glass-card">
+            <div class="info-icon"><i class="fas fa-map-marker-alt"></i></div>
+            <div>
+              <h4>Location</h4>
+              <p>Punjab, India</p>
+            </div>
+          </div>
+          <div class="info-card glass-card">
+            <div class="info-icon"><i class="fas fa-phone"></i></div>
+            <div>
+              <h4>Phone</h4>
+              <p>+91-9792080572</p>
+            </div>
+          </div>
+          <div class="contact-socials">
+            <h4>Connect With Me</h4>
+            <div class="social-row">
+              <a href="https://github.com/Vivek-yadav00" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="GitHub"><i class="fab fa-github"></i><span>GitHub</span></a>
+              <a href="https://www.linkedin.com/in/vivekyadav572" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i><span>LinkedIn</span></a>
+              <a href="mailto:vivek.ydv242@gmail.com" class="social-btn" aria-label="Email"><i class="fas fa-envelope"></i><span>Email</span></a>
+            </div>
+          </div>
+          <div class="resume-download-section">
+            <a href="https://drive.google.com/file/d/1Qr_Zh3WPuIo6Kcah3LHosg_8Q8sDwV1c/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-download">
+              <i class="fas fa-download"></i>
+              <span>Download Resume</span>
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="#hero" class="nav-logo">
+            <span class="logo-bracket"></span>VY<span class="logo-bracket"></span>
+          </a>
+          <p>B.Tech CSE Student at LPU | Full Stack Developer | Building real-world web apps & AI tools</p>
+        </div>
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#training">Training</a></li>
+            <li><a href="#experience">Education</a></li>
+            <li><a href="#certificates">Certificates</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Services</h4>
+          <ul>
+            <li>Web Development</li>
+            <li>UI/UX Design</li>
+            <li>API Development</li>
+            <li>Database Design</li>
+            <li>DevOps Solutions</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 Vivek Yadav. All rights reserved.</p>
+        <p>Designed &amp; Built with <i class="fas fa-heart" style="color: var(--accent-cyan);"></i></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="index.js"></script>
+</body>
+</html>
