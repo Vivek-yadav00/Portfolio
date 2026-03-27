@@ -1,6 +1,5 @@
 # 🚀 Vivek Yadav — Personal Portfolio
-
-![Portfolio Preview](./image/IMG-20231115-WA0017.jpg) <!-- You can replace this with an actual screenshot of your portfolio -->
+<!-- You can replace this with an actual screenshot of your portfolio -->
 
 Welcome to my personal portfolio repository! This responsive, dark-themed, glassmorphism-styled website showcases my journey as a Full Stack Developer & AI enthusiast. It highlights my projects, technical skills, education, and professional certifications.
 
